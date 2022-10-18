@@ -1,0 +1,49 @@
+Arguments: 
+  /home/zenji/.nvm/versions/node/v16.14.0/bin/node /home/zenji/.nvm/versions/node/v16.14.0/bin/yarn publish
+
+PATH: 
+  /home/zenji/.nvm/versions/node/v16.14.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/mnt/7FC5367C701ABA46/Programming/source-code/2022/chrome-extension/wizit/wizit-type/node_modules/.bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.14.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/home/zenji/.nvm/versions/node/v16.14.0/lib/node_modules/yarn/lib/cli.js:137143:13)
+      at Interface.emit (node:events:520:28)
+      at Interface._ttyWrite (node:readline:1081:16)
+      at ReadStream.onkeypress (node:readline:288:10)
+      at ReadStream.emit (node:events:520:28)
+      at emitKeys (node:internal/readline/utils:358:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:61:36)
+      at ReadStream.emit (node:events:520:28)
+      at addChunk (node:internal/streams/readable:315:12)
+
+npm manifest: 
+  {
+    "name": "wizit-type",
+    "version": "1.0.0",
+    "description": "Types declaration for Wizit extension and Wizit serverless",
+    "main": "index.ts",
+    "author": "zenji <canhtoannguyen60@gmail.com>",
+    "license": "MIT",
+    "homepage": "https://github.com/zenzjtech/wizit-type",
+    "bugs": "https://github.com/zenzjtech/wizit-type/issues",
+    "repository": {
+      "url": "https://github.com/zenzjtech/wizit-type",
+      "type": "git"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
