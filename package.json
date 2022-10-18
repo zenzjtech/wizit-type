@@ -1,0 +1,14 @@
+{
+  "name": "wizit-type",
+  "version": "1.0.1",
+  "description": "Types declaration for Wizit extension and Wizit serverless",
+  "main": "index.ts",
+  "author": "zenji <canhtoannguyen60@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/zenzjtech/wizit-type",
+  "bugs": "https://github.com/zenzjtech/wizit-type/issues",
+  "repository": {
+    "url": "https://github.com/zenzjtech/wizit-type",
+    "type": "git"
+  }
+}
