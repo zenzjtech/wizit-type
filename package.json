@@ -1,10 +1,18 @@
 {
   "name": "wizit-type",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Types declaration for Wizit extension and Wizit serverless",
-  "main": "index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "author": "zenji <canhtoannguyen60@gmail.com>",
   "license": "MIT",
+  "dependencies": {
+    "@types/node": "^14.14.37",
+    "typescript": "^4.0.0"
+  },
+  "scripts": {
+    "build": "rm -rf dist && tsc"
+  },
   "homepage": "https://github.com/zenzjtech/wizit-type",
   "bugs": "https://github.com/zenzjtech/wizit-type/issues",
   "repository": {
