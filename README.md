@@ -1,0 +1,1 @@
+# Type declaration for Wizit serverless and Wizit extension
