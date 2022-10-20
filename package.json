@@ -1,6 +1,6 @@
 {
   "name": "wizit-type",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Types declaration for Wizit extension and Wizit serverless",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
