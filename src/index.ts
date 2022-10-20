@@ -74,7 +74,9 @@ export enum SwitcherContainerType {
     parent,
     sibling,
 }
+
 export type SwitcherContainer = {
+    shouldInsertAtRootHouseCardElm: boolean,
     selector: string,
     type: SwitcherContainerType
 }

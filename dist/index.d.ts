@@ -66,6 +66,7 @@ export declare enum SwitcherContainerType {
     sibling = 1
 }
 export declare type SwitcherContainer = {
+    shouldInsertAtRootHouseCardElm: boolean;
     selector: string;
     type: SwitcherContainerType;
 };
