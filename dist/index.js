@@ -56,6 +56,7 @@ var DialogAction;
     DialogAction["compareListing"] = "compare listing(s)";
     DialogAction["groupConfirmed"] = "groupConfirmed";
     DialogAction["groupEmail"] = "send group(s)";
+    DialogAction["groupEmailWarning"] = "send email warning";
     DialogAction["groupDownload"] = "download group(s)";
     DialogAction["groupDelete"] = "delete group(s)";
     DialogAction["groupAddNewGroup"] = "add a new group";

@@ -125,6 +125,7 @@ export enum DialogAction {
 
     groupConfirmed = 'groupConfirmed',
     groupEmail = 'send group(s)',
+    groupEmailWarning = 'send email warning',
     groupDownload = 'download group(s)',
     groupDelete = 'delete group(s)',
     groupAddNewGroup = 'add a new group',
