@@ -180,5 +180,13 @@ export declare enum LocationType {
 export declare type SwitchState = {
     [key in LocationType]: boolean;
 };
+export declare enum MessageResult {
+    Success = 0,
+    Error = 1
+}
+export declare type eResponse = {
+    payload?: any;
+    message: MessageResult;
+};
 export {};
 //# sourceMappingURL=index.d.ts.map

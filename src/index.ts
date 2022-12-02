@@ -224,3 +224,13 @@ export enum LocationType {
 export type SwitchState = {
     [key in LocationType]: boolean
 }
+
+export enum MessageResult {
+    Success,
+    Error
+}
+
+export type eResponse = {
+    payload?: any,
+    message: MessageResult
+}

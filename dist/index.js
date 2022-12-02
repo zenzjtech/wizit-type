@@ -1,7 +1,7 @@
 "use strict";
 var _a;
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.LocationType = exports.DIALOG_ACTION_TO_TEXT = exports.TriggerClickedSource = exports.SettingsMode = exports.OnboardingState = exports.NavTab = exports.DialogAction = exports.SwitcherContainerType = exports.houseDetailFormatMapping = exports.houseDetailAttributes = exports.Site = void 0;
+exports.MessageResult = exports.LocationType = exports.DIALOG_ACTION_TO_TEXT = exports.TriggerClickedSource = exports.SettingsMode = exports.OnboardingState = exports.NavTab = exports.DialogAction = exports.SwitcherContainerType = exports.houseDetailFormatMapping = exports.houseDetailAttributes = exports.Site = void 0;
 var Site;
 (function (Site) {
     Site["zillow"] = "zillow.com";
@@ -124,4 +124,9 @@ var LocationType;
     LocationType[LocationType["mainPage"] = 0] = "mainPage";
     LocationType[LocationType["detailedPage"] = 1] = "detailedPage";
 })(LocationType = exports.LocationType || (exports.LocationType = {}));
+var MessageResult;
+(function (MessageResult) {
+    MessageResult[MessageResult["Success"] = 0] = "Success";
+    MessageResult[MessageResult["Error"] = 1] = "Error";
+})(MessageResult = exports.MessageResult || (exports.MessageResult = {}));
 //# sourceMappingURL=index.js.map
