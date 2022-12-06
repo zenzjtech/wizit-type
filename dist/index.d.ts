@@ -188,5 +188,16 @@ export declare type eResponse = {
     payload?: any;
     message: MessageResult;
 };
+export declare enum EmailDeliveryStatus {
+    delivered = "delivered",
+    dropped = "dropped",
+    bounced = "bounced",
+    deferred = "deferred",
+    processed = "processed"
+}
+export declare type EmailDeliveryResult = {
+    email: string;
+    event: EmailDeliveryStatus;
+};
 export {};
 //# sourceMappingURL=index.d.ts.map

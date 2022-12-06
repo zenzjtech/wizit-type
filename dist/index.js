@@ -1,7 +1,7 @@
 "use strict";
 var _a;
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.MessageResult = exports.LocationType = exports.DIALOG_ACTION_TO_TEXT = exports.TriggerClickedSource = exports.SettingsMode = exports.OnboardingState = exports.NavTab = exports.DialogAction = exports.SwitcherContainerType = exports.houseDetailFormatMapping = exports.houseDetailAttributes = exports.Site = void 0;
+exports.EmailDeliveryStatus = exports.MessageResult = exports.LocationType = exports.DIALOG_ACTION_TO_TEXT = exports.TriggerClickedSource = exports.SettingsMode = exports.OnboardingState = exports.NavTab = exports.DialogAction = exports.SwitcherContainerType = exports.houseDetailFormatMapping = exports.houseDetailAttributes = exports.Site = void 0;
 var Site;
 (function (Site) {
     Site["zillow"] = "zillow.com";
@@ -129,4 +129,12 @@ var MessageResult;
     MessageResult[MessageResult["Success"] = 0] = "Success";
     MessageResult[MessageResult["Error"] = 1] = "Error";
 })(MessageResult = exports.MessageResult || (exports.MessageResult = {}));
+var EmailDeliveryStatus;
+(function (EmailDeliveryStatus) {
+    EmailDeliveryStatus["delivered"] = "delivered";
+    EmailDeliveryStatus["dropped"] = "dropped";
+    EmailDeliveryStatus["bounced"] = "bounced";
+    EmailDeliveryStatus["deferred"] = "deferred";
+    EmailDeliveryStatus["processed"] = "processed";
+})(EmailDeliveryStatus = exports.EmailDeliveryStatus || (exports.EmailDeliveryStatus = {}));
 //# sourceMappingURL=index.js.map

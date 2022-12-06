@@ -234,3 +234,16 @@ export type eResponse = {
     payload?: any,
     message: MessageResult
 }
+
+export enum EmailDeliveryStatus {
+    delivered='delivered',
+    dropped='dropped',
+    bounced='bounced',
+    deferred='deferred',
+    processed='processed'
+}
+
+export type EmailDeliveryResult = {
+    email: string,
+    event: EmailDeliveryStatus
+}
