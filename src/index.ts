@@ -151,16 +151,6 @@ export enum NavTab {
     filters = 'Filters'
 }
 
-export enum OnboardingState {
-    extensionIntro,
-    listingTab,
-    groupTab,
-    accountTab,
-    settingsTab,
-    temporaryClose,
-    done,
-}
-
 export type IconAction = [
     string, DialogAction
 ]

@@ -132,15 +132,6 @@ export declare enum NavTab {
     compareListing = "CompareListings",
     filters = "Filters"
 }
-export declare enum OnboardingState {
-    extensionIntro = 0,
-    listingTab = 1,
-    groupTab = 2,
-    accountTab = 3,
-    settingsTab = 4,
-    temporaryClose = 5,
-    done = 6
-}
 export declare type IconAction = [
     string,
     DialogAction

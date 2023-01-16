@@ -1,7 +1,7 @@
 "use strict";
 var _a;
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.EmailDeliveryStatus = exports.MessageResult = exports.LocationType = exports.DIALOG_ACTION_TO_TEXT = exports.TriggerClickedSource = exports.SettingsMode = exports.OnboardingState = exports.NavTab = exports.DialogAction = exports.SwitcherContainerType = exports.houseDetailFormatMapping = exports.houseDetailAttributes = exports.Site = void 0;
+exports.EmailDeliveryStatus = exports.MessageResult = exports.LocationType = exports.DIALOG_ACTION_TO_TEXT = exports.TriggerClickedSource = exports.SettingsMode = exports.NavTab = exports.DialogAction = exports.SwitcherContainerType = exports.houseDetailFormatMapping = exports.houseDetailAttributes = exports.Site = void 0;
 var Site;
 (function (Site) {
     Site["zillow"] = "zillow.com";
@@ -80,16 +80,6 @@ var NavTab;
     NavTab["compareListing"] = "CompareListings";
     NavTab["filters"] = "Filters";
 })(NavTab = exports.NavTab || (exports.NavTab = {}));
-var OnboardingState;
-(function (OnboardingState) {
-    OnboardingState[OnboardingState["extensionIntro"] = 0] = "extensionIntro";
-    OnboardingState[OnboardingState["listingTab"] = 1] = "listingTab";
-    OnboardingState[OnboardingState["groupTab"] = 2] = "groupTab";
-    OnboardingState[OnboardingState["accountTab"] = 3] = "accountTab";
-    OnboardingState[OnboardingState["settingsTab"] = 4] = "settingsTab";
-    OnboardingState[OnboardingState["temporaryClose"] = 5] = "temporaryClose";
-    OnboardingState[OnboardingState["done"] = 6] = "done";
-})(OnboardingState = exports.OnboardingState || (exports.OnboardingState = {}));
 var SettingsMode;
 (function (SettingsMode) {
     SettingsMode[SettingsMode["default"] = 0] = "default";
