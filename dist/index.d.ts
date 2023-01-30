@@ -21,7 +21,7 @@ export declare type MyXpath = {
     matchContent?: string | string[];
 };
 export declare type SelectorOrXpath = MySelector | MySelector[] | undefined | MyXpath | (MySelector | MyXpath)[];
-export declare const houseDetailAttributes: readonly ["price", "bedrooms", "bathrooms", "sqft", "address", "number", "street", "city", "state", "zip", "timeListed", "yearBuilt", "pricePerSqft", "hoaFees", "propertyTaxes", "mlsNumber", "imageUrl", "url", "updatedAt", "houseId", "site", "groupName"];
+export declare const houseDetailAttributes: readonly ["price", "bedrooms", "bathrooms", "sqft", "address", "number", "street", "city", "state", "zip", "timeListed", "yearBuilt", "pricePerSqft", "hoaFees", "propertyTaxes", "mlsNumber", "imageUrl", "url", "updatedAt", "houseId", "site", "groupName", "selectListingPage"];
 export declare const houseDetailFormatMapping: {
     readonly price: "Price";
     readonly bedrooms: "Bedrooms";
@@ -45,6 +45,7 @@ export declare const houseDetailFormatMapping: {
     readonly houseId: "House ID";
     readonly site: "Site";
     readonly groupName: "Group Name";
+    readonly selectListingPage: "";
 };
 export declare type HouseDetailsAttributes = (typeof houseDetailAttributes)[number];
 export declare type HouseDetailsValues = {

@@ -29,7 +29,9 @@ export type SelectorOrXpath = MySelector | MySelector[] | undefined | MyXpath | 
 export const houseDetailAttributes = [
     'price', 'bedrooms', 'bathrooms', 'sqft', 'address', 'number', 'street', 'city',
     'state', 'zip', 'timeListed', 'yearBuilt', 'pricePerSqft',
-    'hoaFees', 'propertyTaxes', 'mlsNumber', 'imageUrl', 'url', 'updatedAt', 'houseId', 'site', 'groupName'
+    'hoaFees', 'propertyTaxes', 'mlsNumber', 'imageUrl', 'url', 'updatedAt', 'houseId', 'site', 'groupName',
+    // The page to open when user click at card logo
+    'selectListingPage'
 ] as const
 
 export const houseDetailFormatMapping = {
@@ -54,7 +56,8 @@ export const houseDetailFormatMapping = {
     'updatedAt': 'Updated At',
     'houseId': 'House ID',
     'site': 'Site',
-    'groupName': 'Group Name'
+    'groupName': 'Group Name',
+    'selectListingPage': ''
 } as const
 
 export type HouseDetailsAttributes = (typeof houseDetailAttributes)[number]

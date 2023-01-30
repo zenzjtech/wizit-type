@@ -10,7 +10,9 @@ var Site;
 exports.houseDetailAttributes = [
     'price', 'bedrooms', 'bathrooms', 'sqft', 'address', 'number', 'street', 'city',
     'state', 'zip', 'timeListed', 'yearBuilt', 'pricePerSqft',
-    'hoaFees', 'propertyTaxes', 'mlsNumber', 'imageUrl', 'url', 'updatedAt', 'houseId', 'site', 'groupName'
+    'hoaFees', 'propertyTaxes', 'mlsNumber', 'imageUrl', 'url', 'updatedAt', 'houseId', 'site', 'groupName',
+    // The page to open when user click at card logo
+    'selectListingPage'
 ];
 exports.houseDetailFormatMapping = {
     'price': 'Price',
@@ -34,7 +36,8 @@ exports.houseDetailFormatMapping = {
     'updatedAt': 'Updated At',
     'houseId': 'House ID',
     'site': 'Site',
-    'groupName': 'Group Name'
+    'groupName': 'Group Name',
+    'selectListingPage': ''
 };
 var SwitcherContainerType;
 (function (SwitcherContainerType) {
